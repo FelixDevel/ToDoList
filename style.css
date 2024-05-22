@@ -1,0 +1,105 @@
+@font-face {
+    font-family: Poppins;
+    src: url(img/Poppins-Medium.ttf);
+    font-weight: 100;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+
+.home{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    padding: 10px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50%;
+    width: 60%;
+    height: 50%;
+    /* border: 5px solid red; */
+    border-radius: 5px;
+    background-color: white;
+    /* box-shadow: 1px 1px 1rem ; */
+    box-shadow: 0px 0px 0.6rem rgb(6, 6, 109);
+}
+
+.container-question{
+    padding: 10px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30%;
+    width: 60%;
+    height: 50%;
+    /* border: 5px solid red; */
+    border-radius: 5px;
+    background-color: white;
+    /* box-shadow: 1px 1px 1rem ; */
+    box-shadow: 0px 0px 0.6rem rgb(6, 6, 109);
+}
+
+.btn{
+    background-color: blue;
+    color: white;
+    padding: 6px 12px;
+    border: 0px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1rem rgb(6, 6, 109);
+}
+
+.btn-all{
+    display: flex;
+    gap: 50px;
+}
+
+.btn:hover{
+    box-shadow: none;
+}
+
+.title{
+    align-items: center;
+}
+
+.txt-blue{
+    color: rgb(6, 6, 109);
+}
+
+.mydiv{
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    width: fit-content;
+    /* display: inline-block; */
+}
+
+label{
+    display: inline-block;
+}
+
+
+
+div{
+    display: flex;
+}
+
+.hidden{
+    display: none;
+}

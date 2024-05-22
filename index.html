@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Quizz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="home" class="home ">
+        <div class="container">
+            <h1 class="title">Welcome To <span class="txt-blue">QUIZZ</span> APP</h1>
+        <button id="start_btn" class="btn" onclick="get_started()">Get Started !</button>
+        </div>
+    </div>
+
+    <div id="div_req" class="hidden home mydiv">
+       <div class="container-question">
+        <input id="num_req" value="-1" type="hidden"> 
+    <h3 id="id_req">Question No 1</h3>
+
+    <form id="id_form" action="#">
+        <div id="container">
+            <div id="all_radio">
+                in
+            </div>
+        </div>
+
+
+        
+    </form>
+
+    <div class="btn-all">
+        <input class="btn" type="button" value="Prev">
+        <input class="btn" type="button" value="Next" onclick="ask_req()">
+        <input type="hidden" name="rep_final" id='rep_final' value="false">
+    </div>
+
+       </div>
+
+    </div>
+
+    <div id="resultat" class="hidden">
+        <h2>Resultat = <span id="point"></span></h2>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
